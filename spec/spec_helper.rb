@@ -40,4 +40,6 @@ RSpec.configure do |config|
   #     --seed 1234
   config.order = "random"
   config.include Capybara::DSL
+  config.include Rails.application.routes.url_helpers
+  config.infer_spec_type_from_file_location!
 end
