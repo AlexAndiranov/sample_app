@@ -7,6 +7,9 @@ gem 'rails', '4.1.9'
 gem 'rspec-rails'
 gem 'guard-rspec'
 gem 'pry'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :test do
   gem 'selenium-webdriver'
